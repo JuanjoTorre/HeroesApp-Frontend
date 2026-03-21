@@ -1,3 +1,5 @@
+//Componente donde se definiran las rutas de la aplicacion
+
 import { AdminPage } from "@/admin/pages/AdminPage";
 import { HeroPage } from "@/heroes/pages/hero/HeroPage";
 import { HomePage } from "@/heroes/pages/home/HomePage";
