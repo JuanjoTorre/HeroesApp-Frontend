@@ -1,5 +1,3 @@
-//Componente de entrada a la aplicacion de heroes
-
 import { RouterProvider } from "react-router";
 import { appRouter } from "./router/app.router";
 

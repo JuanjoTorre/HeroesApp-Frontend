@@ -1,5 +1,3 @@
-//Componente de heroe
-
 export const HeroPage = () => {
-	return <>HeroPage</>;
+	return <div>HeroPage</div>;
 };

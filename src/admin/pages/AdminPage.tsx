@@ -1,6 +1,3 @@
-//Componente de administracion de la aplicacion
-
 export const AdminPage = () => {
-	return <>AdminPage</>;
+  return <div>AdminPage</div>;
 };
-export default AdminPage;
