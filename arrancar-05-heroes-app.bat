@@ -23,8 +23,8 @@
 ::Voy a la carpeta donde esta el proyecto de frontend(cd C:\Users\Usuario\OneDrive\Documents\Escritorio\Programas\PROYECTOS\ProyectoHonyaldi\Frontend)
 ::Le indico que le voy a pasar otro parametro (&&)
 ::Arranco el proyecto de Vite/React (npm run dev)
-start cmd.exe /k "cd C:\Users\Usuario\Desktop\ReactTS\05-heroes-app && npm run dev"
-start cmd.exe /k "cd C:\Users\Usuario\Desktop\ReactTS\06-nest-heroes-backend && npm run start:dev"
+start cmd.exe /k "cd C:\Users\Usuario\Desktop\PANTALLA\CURSOS\ReactTS\05-heroes-app && npm run dev"
+start cmd.exe /k "cd C:\Users\Usuario\Desktop\PANTALLA\CURSOS\ReactTS\06-nest-heroes-backend && npm run start:dev"
 
 
 ::ARRANCO EL POSTMAN Y EL MONGODBCOMPASS

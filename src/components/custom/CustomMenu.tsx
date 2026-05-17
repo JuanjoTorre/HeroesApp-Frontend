@@ -21,25 +21,27 @@ export const CustomMenu = () => {
 				<NavigationMenuItem>
 					<NavigationMenuLink
 						// asChild
+						render={<Link to="/" />}
 						className={cn(
 							isActive("/") && "bg-slate-200",
 							"p-2 rounded-md",
 						)}
 					>
-						<Link to="/">Inicio</Link>
+						Inicio
 					</NavigationMenuLink>
 				</NavigationMenuItem>
 
 				{/* Search */}
 				<NavigationMenuItem>
 					<NavigationMenuLink
+						render={<Link to="/search" />}
 						// asChild
 						className={cn(
 							isActive("/search") && "bg-slate-200",
 							"p-2 rounded-md",
 						)}
 					>
-						<Link to="/search">Buscar superhéroes</Link>
+						Buscar superhéroes
 					</NavigationMenuLink>
 				</NavigationMenuItem>
 			</NavigationMenuList>
