@@ -7,7 +7,7 @@ import { Progress } from "@/components/ui/progress";
 
 export const HeroGridCard = () => {
 	return (
-		<Card className="group overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1 bg-gradient-to-br from-white to-gray-50">
+		<Card className="group overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1 bg-linear-to-br from-white to-gray-50">
 			<div className="relative h-64 overflow-hidden">
 				<img
 					src="/placeholder.svg?height=300&width=300"
@@ -84,7 +84,11 @@ export const HeroGridCard = () => {
 								Strength
 							</span>
 						</div>
-						<Progress value={50} className="h-2" />
+						<Progress
+							value={50}
+							className="h-2"
+							activeColor="bg-orange-500"
+						/>
 					</div>
 					<div className="space-y-1">
 						<div className="flex items-center gap-1">
@@ -93,7 +97,11 @@ export const HeroGridCard = () => {
 								Intelligence
 							</span>
 						</div>
-						<Progress value={80} className="h-2" />
+						<Progress
+							value={80}
+							className="h-2"
+							activeColor="bg-blue-500"
+						/>
 					</div>
 					<div className="space-y-1">
 						<div className="flex items-center gap-1">
@@ -102,7 +110,11 @@ export const HeroGridCard = () => {
 								Speed
 							</span>
 						</div>
-						<Progress value={90} className="h-2" />
+						<Progress
+							value={90}
+							className="h-2"
+							activeColor="bg-green-500"
+						/>
 					</div>
 					<div className="space-y-1">
 						<div className="flex items-center gap-1">
@@ -111,7 +123,11 @@ export const HeroGridCard = () => {
 								Durability
 							</span>
 						</div>
-						<Progress value={100} className="h-2" />
+						<Progress
+							value={100}
+							className="h-2"
+							activeColor="bg-purple-500"
+						/>
 					</div>
 				</div>
 

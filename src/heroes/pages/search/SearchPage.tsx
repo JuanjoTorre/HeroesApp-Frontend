@@ -8,7 +8,7 @@ export const SearchPage = () => {
 		<>
 			<CustomJumbotron
 				title="Búsqueda de SuperHéroes"
-				description="Descubre, explora y administra super héroes y villanos"
+				description="Descubre, explora y administra superhéroes y villanos"
 			/>
 
 			<CustomBreadcrumbs
