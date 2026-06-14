@@ -5,6 +5,7 @@ import {
 	NavigationMenuLink,
 	NavigationMenuList,
 } from "../ui/navigation-menu";
+
 import { cn } from "@/lib/utils";
 
 export const CustomMenu = () => {
@@ -20,28 +21,26 @@ export const CustomMenu = () => {
 				{/* Home */}
 				<NavigationMenuItem>
 					<NavigationMenuLink
-						// asChild
-						render={<Link to="/" />}
+						asChild
 						className={cn(
 							isActive("/") && "bg-slate-200",
 							"p-2 rounded-md",
 						)}
 					>
-						Inicio
+						<Link to="/">Inicio</Link>
 					</NavigationMenuLink>
 				</NavigationMenuItem>
 
 				{/* Search */}
 				<NavigationMenuItem>
 					<NavigationMenuLink
-						render={<Link to="/search" />}
-						// asChild
+						asChild
 						className={cn(
 							isActive("/search") && "bg-slate-200",
 							"p-2 rounded-md",
 						)}
 					>
-						Buscar superhéroes
+						<Link to="/search">Buscar Superhéroes</Link>
 					</NavigationMenuLink>
 				</NavigationMenuItem>
 			</NavigationMenuList>
